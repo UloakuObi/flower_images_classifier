@@ -54,7 +54,7 @@ def predict(image_path):
 
     if trained_model is None:
         trained_model = DenseNetClassifier(num_classes=num_classes)
-        checkpoint = torch.load("model/densenet_flower_classifier_v1.pth", map_location="cpu")
+        checkpoint = torch.load("app/model/densenet_flower_classifier_v1.pth", map_location="cpu")
         trained_model.load_state_dict(checkpoint['model_state_dict'])  # load only the model weights
         trained_model.eval()
 
