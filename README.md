@@ -55,7 +55,7 @@ All base layers were frozen, and custom classifiers were added for fine-tuning.
 
 - `flower_images_classifier.ipynb` – Full model training + evaluation
 - `models/` – Saved `.pth` files
-- `app/main.py` – [https://credit-risk-estimator.streamlit.app](https://credit-risk-estimator.streamlit.app)
+- `app/main.py` – [https://flower-images-classifier.streamlit.app/](https://flower-images-classifier.streamlit.app/)
 
 ---
 
