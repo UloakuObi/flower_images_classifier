@@ -52,7 +52,7 @@ with right_col:
             info = flower_facts.get(prediction.lower())
 
             if info:
-                st.markdown(f"**About {prediction}:** {info['description']}")
+                st.markdown(f"**About {prediction.title()}:** {info['description']}")
                 st.markdown(f"**Key Characteristics:** {info['characteristics']}")
                 st.markdown(f"**🌼 Fun Fact:** _{info['fun_fact']}_")
             else:
