@@ -6,7 +6,7 @@ import os
 import json
 
 # Load flower facts from JSON file
-with open("flower_facts.json", "r", encoding="utf-8") as f:
+with open("app/flower_facts.json", "r", encoding="utf-8") as f:
     flower_facts = json.load(f)
 
 st.set_page_config(page_title="Flower Classifier", layout="wide")
