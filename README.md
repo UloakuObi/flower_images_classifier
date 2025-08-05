@@ -7,7 +7,7 @@ A deep learning project that classifies flower images into 14 categories using t
 ## Dataset
 
 - Source: [Kaggle – Flower Classification](https://www.kaggle.com/datasets/marquis03/flower-classification)
-- Total: 13,618 training images + 98 held-out test images
+- Total: 13,642 training images + 98 held-out test images
 - Classes: 14 flower species (e.g., rose, tulip, iris, dandelion)
 
 ---

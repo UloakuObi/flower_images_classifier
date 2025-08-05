@@ -47,7 +47,7 @@ with right_col:
         st.markdown(" ")
         try:
             prediction = predict(image_path)
-            st.success(f"🌼 This is an image of a: **{prediction.title()}**")
+            st.success(f"🌼 The flower in the picture is: **{prediction.title()}**")
             
             info = flower_facts.get(prediction.lower())
 
